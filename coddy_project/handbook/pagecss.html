@@ -1,0 +1,100 @@
+<!DOCTYPE >
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Справочник по CSS</title>
+	<link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<main>
+		<h1>Справочник по CSS</h1>
+		<nav class="menu">
+			<ul>				
+				<li><a href="pagehtml.html">Справочник HTML</a></li>
+				<li><a href="index.html">Главная</a></li>
+				<li><a href="pagecss.html">Справочник CSS</a></li>
+			</ul>
+		</nav>
+		<section class="desc">
+			<div class="table">
+				<div class="row">
+					<div class="row-title">Название свойства</div>
+				<div class="row-description">Описание свойства</div>
+				</div>
+				<div class="row">
+                   <div class="title">display</div>  
+					<div class="description">Многоцелевое свойство, которое определяет. как элемент должен быть показан в документе</div>
+					</div>
+					<div class="row">
+                   <div class="title">margin</div>  
+					<div class="description">Устанавливает величину отступа от каждого края элемента. Отступом является пространство от границы текущего элемента до внутренней границы его родительского элемента</div>
+				  </div>
+					<div class="row">
+                   <div class="title">font-size</div> 
+					<div class="description">Определяет размер шрифта элемента. Размер может быть установлен несколькими способами. Набор констант xx-small, x-small, small, medium, large, x-large, xx-large задает размер, который называется абсолютным. По правде говоря, они не совсем абсолютны, поскольку зависят от настроек браузера и операционной системы.</div>
+				 </div>
+					<div class="row">
+                   <div class="title">padding</div>  
+					<div class="description">Устанавливает значение полей вокруг содержимого элемента. Полем называется расстояние от внутреннего края рамки элемента до воображаемого прямоугольника, ограничивающего его содержимое</div>
+				</div>
+				<div class="row">
+					<div  class="title">box-sizing</div>
+					<div class="description">Согласно спецификации CSS ширина блока складывается из ширины контента width, значений отступов margin, полей padding и границ border. Аналогично обстоит и с высотой блока. Свойство box-sizing позволяет изменить этот алгоритм, чтобы свойства width и height задавали размеры не контента, а размеры блока.</div>
+				</div>
+					<div class="row">
+					<div  class="title">font-family</div>
+					<div class="description">Устанавливает семейство шрифта, которое будет использоваться для оформления текста содержимого. Список шрифтов может включать одно или несколько названий, разделенных запятой. Если в имени шрифта содержатся пробелы, например, Trebuchet MS, оно должно заключаться в одинарные или двойные кавычки.</div>
+					</div>
+					<div class="row">
+					<div  class="title">background-color</div>
+					<div class="description">Определяет цвет фона элемента. Хотя это свойство не наследует свойства своего родителя, из-за того, что начальное значение устанавливается прозрачным, цвет фона дочерних элементов совпадает с цветом фона родительского элемента</div>
+					</div>
+					<div class="row">
+					<div  class="title">height</div>
+					<div class="description">Устанавливает высоту блочных или заменяемых элементов к ним, например, относится тег img. Высота не включает толщину границ вокруг элемента, значение отступов и полей.</div>
+					</div>
+					<div class="row">
+					<div  class="title">width</div>
+					<div class="description">Устанавливает ширину блочных или заменяемых элементов к ним, например, относится тег img. Ширина не включает толщину границ вокруг элемента, значение отступов и полей.</div>
+					</div>
+					<div class="row">
+					<div  class="title">box-shadow</div>
+					<div class="description">Добавляет тень к элементу. Допускается использовать несколько теней, указывая их параметры через запятую, при наложении теней первая тень в списке будет выше, последняя ниже. Если для элемента задается радиус скругления через свойство border-radius, то тень также получится с закругленными уголками. Добавление тени увеличивает ширину элемента, поэтому возможно появление горизонтальной полосы прокрутки в браузере.</div>
+					</div>
+					<div class="row">
+					<div  class="title">max-width</div>
+					<div class="description">Устанавливает максимальную ширину элемента. Значение ширины элемента будет вычисляться в зависимости от значений установленных свойств width, max-width и min-width.</div>
+					</div>
+					<div class="row">
+					<div  class="title">line-height</div>
+					<div class="description">Устанавливает интерлиньяж (межстрочный интервал) текста, отсчет ведется от базовой линии шрифта. При обычных обстоятельствах расстояние между строками зависит от вида и размера шрифта и определяется браузером автоматически. Отрицательное значение межстрочного расстояния не допускается.</div>
+					</div>
+					<div class="row">
+					<div  class="title">text-align</div>
+					<div class="description">Определяет горизонтальное выравнивание текста в пределах элемента.</div>
+					</div>
+					<div class="row">
+					<div  class="title">margin-bottom</div>
+					<div class="description">Устанавливает величину отступа от нижнего края элемента. Отступом является расстояние от внешнего края нижней границы текущего элемента до внутренней границы его родительского элемента</div>
+					</div>
+					<div class="row">
+					<div  class="title">border-radius</div>
+					<div class="description">Устанавливает радиус скругления уголков рамки. Если рамка не задана, то скругление также происходит и с фоном.</div>
+					</div>
+					<div class="row">
+					<div  class="title">list-style</div>
+					<div class="description">Универсальное свойство, позволяющее одновременно задать стиль маркера, его положение, а также изображение, которое будет использоваться в качестве маркера. Для подробного ознакомления смотрите информацию о каждом свойстве list-style-type, list-style-position и list-style-image отдельно</div>
+					</div>
+					<div class="row">
+					<div  class="title">transition</div>
+					<div class="description">Универсальное свойство, которое позволяет одновременно задать значения transition-property, transition-duration, transition-timing-function и transition-delay. Устанавливает эффект перехода между двумя состояниями элемента, они могут быть определены с помощью псевдоэлемента hover или active, а также динамически через JavaScript</div>
+					</div>
+					<div class="row">
+					<div  class="title"></div>
+					<div class="description"></div>
+				</div>
+				</selection>
+	        </main>
+        </body>
+    </html>
